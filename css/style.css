@@ -1,0 +1,220 @@
+:root {
+    --brand-color: #2196F3;
+    --studio-color: #000000;
+    --hero-text: #FFFFFF;
+    --nav-text: #212121;
+    --tel-text: #757575;
+    --focus-color: #2196F3;
+    --heading-color: #212121;
+    --adress-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+ul{
+list-style: none;
+}
+
+
+a {
+text-decoration: none;
+}
+
+
+
+.brand {
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+color: var(--studio-color);
+}
+
+.web {
+color: var(--brand-color);
+}
+
+
+
+.telephone {
+color: var(--tel-text);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.telephone:hover,
+.telephone:focus {
+color: var(--focus-color);
+}
+
+
+.hero {
+background-color: #2F303A;
+text-align: center;
+}
+
+.hero-heading {
+color: var(--hero-text);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.zakaz {
+color: var(--hero-text);
+font-size: 16px;
+line-height: 1.8;
+text-align: center;
+letter-spacing: 0.06em;
+background: #2196F3;
+}
+
+.dignity-title {
+color: var(--nav-text);
+font-weight: bold;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.dignity-text {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.table {
+color: var(--nav-text);
+font-weight: bold;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.name {
+color: var(--nav-text);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+
+.position {
+color: var(--tel-text);
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+
+.down {
+    background: #2F303A;
+}
+
+.brand-down {
+font-family: Raleway;
+color: var(--hero-text);
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+
+.location {
+color: var(--hero-text);
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.location:hover,
+.location:focus {
+color: var(--focus-color);
+}
+
+.navigator-down {
+color: var(--adress-color);
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.navigator-down:hover,
+.navigator-down:focus {
+color: var(--focus-color);
+}
+
+.navigator {
+color: var(--nav-text);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+    
+.navigator:hover,
+.navigator:focus {
+color: var(--focus-color);
+}
+    
+.filter {
+border: none;
+}
+    
+.filter:hover,
+.filter:focus {
+background-color: var(--focus-color);
+color: var(--hero-text);
+}
+
+.filter {
+font-family: Roboto;
+color: var(--nav-text);
+background: #F5F4FA;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.port-title {
+color: var(--nav-text);
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.port-text {
+color: var(--tel-text);
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.navigator.current {
+color: var(--focus-color);
+}

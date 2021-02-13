@@ -30,11 +30,12 @@ height: auto;
 .contaner {
 width: 1200px;
 padding: 0 15px;
-border: 1px solid red;
+margin: 0 auto;
 }
 
 .header {
 position: relative;
+margin-bottom: 25px;
 }
 
 .header-nav,
@@ -91,21 +92,24 @@ color: var(--focus-color);
 
 .hero .contaner {
 background-color: #2F303A;
+width: 1600px;
 text-align: center;
-padding-left: 250px;
+align-items: center;
 }
+    
 
 .hero-heading {
 color: var(--hero-text);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.4;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+margin-left: auto;
+margin-right: auto;
 width: 696px;
-margin-top: 200px;
-margin-bottom: 30px;
+padding-top: 200px;
+padding-bottom: 30px;
 }
 
 .zakaz {
@@ -115,11 +119,25 @@ font-size: 16px;
 line-height: 1.8;
 letter-spacing: 0.06em;
 background: #2196F3;
-text-align: center;
 padding: 10px 32px;
 border-radius: 4px;
 margin-bottom: 200px;
+}
+
+.dignity {
+display: flex;
+margin-top: 94px;
 align-items: center;
+justify-content: space-between;
+}
+
+.dignity li{
+width: 270px;
+}
+
+.dignity li:not(:first-child) {
+padding-left: 30px;
+
 }
 
 .dignity-title {
@@ -129,6 +147,7 @@ font-size: 14px;
 line-height: 1.2;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-bottom: 10px;
 }
 
 .dignity-text {
@@ -136,6 +155,17 @@ font-weight: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
+margin-bottom: 94px;
+}
+
+.working {
+display: flex;
+justify-content: space-between;
+margin-bottom: 94px;
+}
+
+.working li:not(:first-child) {
+padding-left: 30px;
 }
 
 .table {
@@ -145,6 +175,23 @@ font-size: 36px;
 line-height: 1.2;
 text-align: center;
 letter-spacing: 0.03em;
+margin-bottom: 50px;
+margin-top: 94px;
+}
+
+.table-list {
+display: flex;
+justify-content: space-between;
+margin-bottom: 94px;
+}
+
+.table-list li:not(:first-child) {
+padding-left: 30px;
+}
+
+.name,
+.position {
+text-align: center;
 }
 
 .name {
@@ -153,6 +200,8 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.2;
 letter-spacing: 0.03em;
+padding-top: 30px;
+padding-bottom: 10px;
 }
 
 .position {
@@ -160,22 +209,31 @@ color: var(--tel-text);
 font-size: 16px;
 line-height: 1.2;
 letter-spacing: 0.03em;
+padding-bottom: 30px;
 }
 
 .down {
-    background: #2F303A;
+background: #2F303A;
 }
 
+.down .contaner {
+height: 252px;}
+
 .brand-down {
+display: inline-block;
 font-family: Raleway;
 color: var(--hero-text);
 font-weight: bold;
 font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
+margin-top: 60px;
+margin-bottom: 20px;
 }
 
+
 .location {
+display: inline-block;
 color: var(--hero-text);
 font-size: 14px;
 line-height: 1.7;
@@ -188,6 +246,7 @@ color: var(--focus-color);
 }
 
 .navigator-down {
+display: inline-block;
 color: var(--adress-color);
 font-size: 14px;
 line-height: 1.7;

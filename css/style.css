@@ -165,9 +165,6 @@ justify-content: space-between;
 margin-bottom: 94px;
 }
 
-.working li:not(:first-child) {
-padding-left: 30px;
-}
 
 .table {
 color: var(--nav-text);
@@ -186,11 +183,20 @@ justify-content: space-between;
 }
 
 .table-list li {
+background-color: #FFFFFF;
+width: 270px;
+height: 368px;
 margin-bottom: 94px;
+
 }
 
+.team {
+border-radius: 0px 0px 4px 4px;
+}
+
+
 .table-list li:not(:first-child) {
-padding-left: 30px;
+margin-left: 30px;
 }
 
 .name,
@@ -320,6 +326,10 @@ border-radius: 4px;
 display: flex;
 flex-flow: row wrap;
 justify-content: center;
+}
+
+.port-list li {
+    border: 1px solid #EEEEEE;
 }
 
 .port-list li:nth-child(1) {

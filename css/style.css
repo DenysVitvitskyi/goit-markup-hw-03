@@ -51,9 +51,6 @@ margin: 0 auto;
 .header {
 position: relative;
 border-bottom: 1px solid #ECECEC;
-}
-
-.header .contaner {
 padding-top: 24px;
 padding-bottom: 25px;
 }
@@ -110,13 +107,16 @@ color: var(--focus-color);
 
 /* Hero */
 
-.hero .contaner {
+.hero {
 background-color: #2F303A;
 max-width: 100%;
-text-align: center;
-align-items: center;
 padding-top: 200px;
 padding-bottom: 200px;
+}
+
+.hero .contaner {
+text-align: center;
+align-items: center;
 }
     
 
@@ -146,7 +146,7 @@ border-radius: 4px;
 
 /* Dignity */
 
-.dignity .contaner {
+.dignity {
 padding-top: 94px;
 }
 
@@ -183,7 +183,7 @@ letter-spacing: 0.03em;
 
 /* Working */
 
-.working .contaner{
+.working {
 padding-top: 94px;
 padding-bottom: 94px;
 }
@@ -206,7 +206,7 @@ margin-bottom: 50px;
 
 /* Our-team */
 
-.our-teem .contaner {
+.our-teem {
 padding-top: 94px;
 padding-bottom: 94px;
 }
@@ -263,9 +263,6 @@ display: flex;
 
 .down {
 background: #2F303A;
-}
-
-.down .contaner {
 padding-top: 60px;
 padding-bottom: 60px;
 }
@@ -375,9 +372,7 @@ justify-content: center;
 }
 
 .port-contaner {
-width: 322px;
-height: 70px;
-margin: 20px 24px;
+padding: 20px 24px;
 }
 
 .port-list li {
